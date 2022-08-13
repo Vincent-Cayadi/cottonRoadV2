@@ -1,3 +1,9 @@
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="grid w-screen h-screen place-items-center">
+      <p className="text-4xl font-bold align-middle font-manrope">
+        Hello world!
+      </p>
+    </div>
+  );
 }
