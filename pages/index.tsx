@@ -30,9 +30,10 @@ export default function Index() {
           </div>
         </div>
       </section>
+
       <section
         id="lm"
-        className="relative flex flex-col-reverse justify-center w-2/3 h-screen mx-auto sm:flex-row sm:w-full"
+        className="relative flex flex-col-reverse justify-center w-2/3 mx-auto h-max sm:flex-row sm:h-screen sm:w-full"
       >
         <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
           <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
@@ -46,7 +47,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <section className="relative flex flex-col justify-center w-2/3 h-screen mx-auto sm:flex-row sm:w-full">
+      <section className="relative flex flex-col justify-center w-2/3 mx-auto h-max sm:h-screen sm:flex-row sm:w-full">
         <div className="grid w-full sm:w-1/2 place-items-center">
           <div className="w-full h-3/5">
             <Stripe className="w-full h-full text-indigo-500" />
