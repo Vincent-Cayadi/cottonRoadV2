@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-
+import Deal from "../public/deals.svg";
+import Stripe from "../public/stripe.svg";
 export default function Index() {
   return (
     <>
@@ -33,15 +34,22 @@ export default function Index() {
         className="grid h-screen grid-cols-2 mx-auto sm:w-4/5 place-items-center"
       >
         <div>
-          <p className="text-left">
+          <p className="text-2xl text-left">
             A place where secondary schools can buy merchendise from one another
           </p>
         </div>
+        <div>
+          <Deal className="h-screen w-max" />
+        </div>
       </section>
       <section className="grid h-screen grid-cols-2 mx-auto sm:w-4/5 place-items-center">
-        <div></div>
         <div>
-          <p>Payments are made secure using Stripe</p>
+          <Stripe className="h-screen w-max" />
+        </div>
+        <div>
+          <p className="text-3xl text-right align-middle">
+            Payments are made secure using Stripe
+          </p>
         </div>
       </section>
       <section className="grid w-3/4 h-screen mx-auto place-items-center">
