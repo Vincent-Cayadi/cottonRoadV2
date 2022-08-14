@@ -32,32 +32,31 @@ export default function Index() {
       </section>
       <section
         id="lm"
-        className="relative grid w-2/3 h-screen grid-cols-1 mx-auto sm:grid-cols-2 sm:w-full place-items-center"
+        className="relative flex flex-col-reverse justify-center w-2/3 h-screen mx-auto sm:flex-row sm:w-full"
       >
-        <div className="grid w-full h-1/5 place-items-center">
-          <div>
-            <p className="text-3xl text-center align-middle sm:text-left">
-              A place where students can
-            </p>
-            <p className="text-3xl text-center align-middle sm:text-left">
-              buy merchendise from one another
-            </p>
+        <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
+          <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
+            A place where students can buy merchendise from one another
+          </p>
+        </div>
+        <div className="grid w-full sm:w-1/2 place-items-center">
+          <div className="w-full h-3/5">
+            <Deal className="w-full h-full text-indigo-500" />
+            <div className="absolute right-0 invisible block w-2/4 overflow-hidden bg-purple-200 rounded-l-full bottom-60 sm:visible -z-10 h-2/6"></div>
           </div>
         </div>
-        <div className="w-full h-full">
-          <Deal className="block w-full h-full text-indigo-500" />
-          <div className="absolute right-0 block w-2/4 overflow-hidden bg-purple-100 rounded-l-full bottom-20 -z-10 h-2/5"></div>
-        </div>
       </section>
-      <section className="relative grid w-2/3 h-screen grid-cols-1 mx-auto sm:grid-cols-2 sm:w-full place-items-center">
-        <div className="w-full h-full">
-          <Stripe className="block w-full h-full text-indigo-500" />
+      <section className="relative flex flex-col justify-center w-2/3 h-screen mx-auto sm:flex-row sm:w-full">
+        <div className="grid w-full sm:w-1/2 place-items-center">
+          <div className="w-full h-3/5">
+            <Stripe className="w-full h-full text-indigo-500" />
+            <div className="absolute left-0 invisible block w-2/4 overflow-hidden bg-purple-200 rounded-r-full bottom-60 sm:visible -z-10 h-2/6"></div>
+          </div>
         </div>
-        <div>
-          <p className="text-3xl text-center align-middle sm:text-right">
-            Payments are made secure using Stripe
+        <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
+          <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
+            Payment is done securely through Stripe
           </p>
-          <div className="absolute left-0 block w-2/4 overflow-hidden bg-purple-100 rounded-r-full bottom-20 -z-10 h-2/5"></div>
         </div>
       </section>
       <section className="grid w-3/4 h-screen mx-auto place-items-center">
