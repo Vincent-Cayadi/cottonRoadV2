@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Deal from "../public/deals.svg";
 import Stripe from "../public/stripe.svg";
+import RecRight from "../public/recRight.svg";
 export default function Index() {
   return (
     <>
@@ -31,23 +32,23 @@ export default function Index() {
       </section>
       <section
         id="lm"
-        className="grid h-screen grid-cols-2 mx-auto sm:w-4/5 place-items-center"
+        className="grid w-2/3 h-screen grid-cols-1 mx-auto sm:grid-cols-2 sm:w-4/5 place-items-center"
       >
         <div>
           <p className="text-2xl text-left">
             A place where secondary schools can buy merchendise from one another
           </p>
         </div>
-        <div>
-          <Deal className="h-screen text-indigo-500 w-max" />
+        <div className="w-full h-full">
+          <Deal className="w-full h-full text-indigo-500" />
         </div>
       </section>
-      <section className="grid h-screen grid-cols-2 mx-auto sm:w-4/5 place-items-center">
-        <div>
-          <Stripe className="h-screen text-indigo-500 w-max" />
+      <section className="grid w-2/3 h-screen grid-cols-1 mx-auto sm:grid-cols-2 sm:w-4/5 place-items-center">
+        <div className="w-full h-full">
+          <Stripe className="w-full h-full text-indigo-500" />
         </div>
         <div>
-          <p className="text-3xl text-right align-middle">
+          <p className="text-3xl text-center align-middle sm:text-right">
             Payments are made secure using Stripe
           </p>
         </div>
