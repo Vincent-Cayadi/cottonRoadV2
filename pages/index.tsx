@@ -41,7 +41,7 @@ export default function Index() {
         </div>
         <div className="grid w-full sm:w-1/2 place-items-center">
           <div className="w-full h-4/5 sm:h-3/5">
-            <Deal className="w-full h-full text-indigo-500 " />
+            <Deal className="block w-full h-full text-indigo-500" />
             <div className="absolute right-0 invisible w-2/4 bg-purple-200 rounded-l-full bottom-60 md:visible -z-10 h-2/6"></div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Index() {
       <section className="relative flex flex-col justify-center w-2/3 mx-auto h-max sm:h-screen sm:flex-row sm:w-full">
         <div className="grid w-full sm:w-1/2 place-items-center">
           <div className="w-full h-4/5 sm:h-3/5">
-            <Stripe className="w-full h-full text-indigo-500 " />
+            <Stripe className="block w-full h-full text-indigo-500" />
             <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-60 md:visible -z-10 h-2/6"></div>
           </div>
         </div>
