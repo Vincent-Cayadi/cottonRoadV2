@@ -20,7 +20,7 @@ export default function Index() {
               </a>
             </Link>
             <Link href="home">
-              <a className="px-4 py-2 text-base text-center text-white align-middle duration-300 border-2 rounded-md cursor-pointer sm:text-lg border-neutral-900 bg-neutral-900 sm:text-bold font-manrope sm:hover:bg-transparent sm:hover:text-neutral-900">
+              <a className="px-4 py-2 text-base text-center text-black align-middle duration-300 bg-white border-2 border-white rounded-md cursor-pointer sm:text-lg sm:text-bold font-manrope">
                 Enter App
               </a>
             </Link>
