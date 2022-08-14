@@ -8,6 +8,9 @@ export default function Home() {
         <title> Home | Cotton Road</title>
         <meta name="description" content="Home | Cotton Road" />
       </Head>
+      <div className="grid h-screen place-items-center">
+        <p className="text-5xl font-semibold">🚧Under Construction🚧</p>
+      </div>
     </>
   );
 }
