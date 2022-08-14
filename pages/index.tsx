@@ -34,6 +34,7 @@ export default function Index() {
         id="lm"
         className="relative flex flex-col-reverse justify-center w-2/3 mx-auto h-max sm:flex-row sm:h-screen sm:w-full"
       >
+        {/* The Reason I added a block is cos safari is weird when rendering the flexbox, it will just overlay it */}
         <div className="block">
           <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
             <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
@@ -41,6 +42,7 @@ export default function Index() {
             </p>
           </div>
         </div>
+        {/* The Reason I added a block is cos safari is weird when rendering the flexbox, it will just overlay it */}
         <div className="block">
           <div className="grid w-full sm:w-1/2 place-items-center">
             <div className="w-full h-4/5">
@@ -51,6 +53,7 @@ export default function Index() {
         </div>
       </section>
       <section className="relative flex flex-col justify-center w-2/3 mx-auto h-max sm:h-screen sm:flex-row sm:w-full">
+        {/* The Reason I added a block is cos safari is weird when rendering the flexbox, it will just overlay it */}
         <div className="block">
           <div className="grid w-full sm:w-1/2 place-items-center">
             <div className="w-full h-4/5">
@@ -59,6 +62,7 @@ export default function Index() {
             </div>
           </div>
         </div>
+        {/* The Reason I added a block is cos safari is weird when rendering the flexbox, it will just overlay it */}
         <div className="block">
           <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
             <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
