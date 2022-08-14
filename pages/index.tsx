@@ -39,12 +39,12 @@ export default function Index() {
           </p>
         </div>
         <div>
-          <Deal className="h-screen w-max" />
+          <Deal className="h-screen text-indigo-500 w-max" />
         </div>
       </section>
       <section className="grid h-screen grid-cols-2 mx-auto sm:w-4/5 place-items-center">
         <div>
-          <Stripe className="h-screen w-max" />
+          <Stripe className="h-screen text-indigo-500 w-max" />
         </div>
         <div>
           <p className="text-3xl text-right align-middle">
