@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      manrope: ["Manrope", "sans-serif"],
+      sans: ["Rubik", "sans-serif"],
     },
   },
   plugins: [],
