@@ -34,23 +34,23 @@ export default function Index() {
         id="lm"
         className="relative flex flex-col-reverse justify-center w-2/3 mx-auto h-max sm:flex-row sm:h-screen sm:w-full"
       >
-        <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
+        <div className="flex-initial w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
           <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
             A place where students can buy merchendise from one another
           </p>
         </div>
-        <div className="grid w-full sm:w-1/2 place-items-center">
-          <div className="w-full h-3/5">
+        <div className="grid flex-initial w-full sm:w-1/2 place-items-center">
+          <div className="w-full h-4/5">
             <Deal className="block w-full h-full text-indigo-500" />
-            <div className="absolute right-0 invisible block w-2/4 overflow-hidden bg-purple-200 rounded-l-full bottom-60 sm:visible -z-10 h-2/6"></div>
+            <div className="absolute right-0 invisible block w-2/4 bg-purple-200 rounded-l-full bottom-60 sm:visible -z-10 h-2/6"></div>
           </div>
         </div>
       </section>
       <section className="relative flex flex-col justify-center w-2/3 mx-auto h-max sm:h-screen sm:flex-row sm:w-full">
         <div className="grid w-full sm:w-1/2 place-items-center">
-          <div className="w-full h-3/5">
+          <div className="w-full h-4/5">
             <Stripe className="block w-full h-full text-indigo-500" />
-            <div className="absolute left-0 invisible block w-2/4 overflow-hidden bg-purple-200 rounded-r-full bottom-60 sm:visible -z-10 h-2/6"></div>
+            <div className="absolute left-0 invisible block w-2/4 bg-purple-200 rounded-r-full bottom-60 sm:visible -z-10 h-2/6"></div>
           </div>
         </div>
         <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
