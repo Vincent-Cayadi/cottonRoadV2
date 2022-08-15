@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+
 import {
   AiOutlineFire,
   AiOutlineShoppingCart,
@@ -13,14 +14,14 @@ export default function Home() {
         <title> Home | Cotton Road</title>
         <meta name="description" content="Home | Cotton Road" />
       </Head>
-      <main className="mt-4">
-        <div className="hidden sm:block">
-          <nav className="flex justify-between w-full py-4 mx-auto border-b ">
+      <main>
+        <div className="sticky top-0 hidden sm:block ">
+          <nav className="flex justify-between w-full py-4 mx-auto bg-white">
             <p className="m-auto text-left align-middle ">Cotton Road</p>
             <input
               type="text"
               placeholder="Search.."
-              className="w-3/5 px-4 py-2 duration-300 border border-gray-300 rounded-md hover:border-gray-900 "
+              className="w-2/3 px-4 py-2 duration-300 border border-gray-300 rounded-md hover:border-gray-900 "
             />
 
             <div className="m-auto">
@@ -43,7 +44,6 @@ export default function Home() {
             </div>
           </nav>
         </div>
-        <div className="w-full mt-2">Hello</div>
       </main>
     </>
   );
