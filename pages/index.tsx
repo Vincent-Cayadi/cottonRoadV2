@@ -10,7 +10,7 @@ export default function Index() {
         <title> Welcome | Cotton Road</title>
         <meta name="description" content="Welcome to Cotton Road" />
       </Head>
-      <main className="w-3/4 mx-auto sm:w-full">
+      <main className="w-4/5 mx-auto sm:w-full">
         <section className="grid h-screen place-items-center">
           <div>
             <p className="text-2xl font-semibold align-middle sm:text-5xl">
@@ -36,18 +36,18 @@ export default function Index() {
         >
           <div className="order-1 sm:order-none">
             <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
-              Buy merchendise from other students
+              Buy merchandise from other students
             </p>
           </div>
           <div className="grid w-full h-full place-items-center">
             <Deal className="w-full text-purple-400 h-4/5 sm:h-3/5 drop-shadow-lg" />
-            <div className="absolute right-0 invisible w-2/4 bg-purple-200 rounded-l-full bottom-40 md:visible -z-10 h-2/6"></div>
+            <div className="absolute right-0 invisible w-2/4 bg-purple-200 rounded-l-full bottom-60 md:visible -z-10 h-2/6"></div>
           </div>
         </section>
         <section className="relative grid grid-cols-1 sm:grid-cols-2 place-items-center h-max sm:h-screen ">
           <div className="grid w-full h-full place-items-center">
             <Stripe className="w-full text-purple-400 h-4/5 sm:h-3/5 drop-shadow-lg" />
-            <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-40 md:visible -z-10 h-2/6"></div>
+            <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-60 md:visible -z-10 h-2/6"></div>
           </div>
           <div>
             <p className="text-xl text-center align-middle sm:text-2xl sm:text-right">
