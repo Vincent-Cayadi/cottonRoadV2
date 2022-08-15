@@ -16,15 +16,15 @@ export default function Index() {
             <p className="text-2xl font-semibold align-middle sm:text-5xl">
               Welcome to Cotton Road!
             </p>
-            <div className="flex justify-start mt-4 sm:justify-center">
-              <Link href="#lm">
-                <a className="px-4 py-2 mr-4 text-base text-center text-white align-middle duration-300 bg-indigo-300 border-2 border-indigo-300 rounded-md cursor-pointer sm:text-lg sm:hover:bg-white sm:hover:text-black ">
-                  Learn More
+            <div className="flex justify-start mt-6 sm:justify-center">
+              <Link href="home">
+                <a className="px-4 py-2 mr-4 text-base text-center text-white align-middle duration-300 bg-indigo-300 border-2 border-indigo-300 rounded-md cursor-pointer x-4 sm:text-lg sm:hover:bg-white sm:hover:text-black ">
+                  Enter App
                 </a>
               </Link>
-              <Link href="home">
-                <a className="px-4 py-2 text-base text-center text-white align-middle duration-300 bg-indigo-300 border-2 border-indigo-300 rounded-md cursor-pointer x-4 sm:text-lg sm:hover:bg-white sm:hover:text-black ">
-                  Enter App
+              <Link href="#lm">
+                <a className="px-4 py-2 text-base text-center text-white align-middle duration-300 bg-indigo-300 border-2 border-indigo-300 rounded-md cursor-pointer sm:text-lg sm:hover:bg-white sm:hover:text-black ">
+                  Learn More
                 </a>
               </Link>
             </div>
@@ -41,13 +41,13 @@ export default function Index() {
           </div>
           <div className="grid w-full h-full place-items-center">
             <Deal className="w-full text-purple-400 h-4/5 sm:h-3/5 drop-shadow-lg" />
-            <div className="absolute right-0 invisible w-2/4 bg-purple-200 rounded-l-full bottom-60 md:visible -z-10 h-2/6"></div>
+            <div className="absolute right-0 invisible w-2/4 bg-purple-200 rounded-l-full bottom-40 md:visible -z-10 h-2/6"></div>
           </div>
         </section>
         <section className="relative grid grid-cols-1 sm:grid-cols-2 place-items-center h-max sm:h-screen ">
           <div className="grid w-full h-full place-items-center">
             <Stripe className="w-full text-purple-400 h-4/5 sm:h-3/5 drop-shadow-lg" />
-            <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-60 md:visible -z-10 h-2/6"></div>
+            <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-40 md:visible -z-10 h-2/6"></div>
           </div>
           <div>
             <p className="text-xl text-center align-middle sm:text-2xl sm:text-right">
