@@ -32,32 +32,32 @@ export default function Index() {
       </section>
       <section
         id="lm"
-        className="relative grid w-2/3 grid-cols-1 mx-auto sm:grid-cols-2 place-items-center h-max sm:flex-row sm:h-screen sm:w-full"
+        className="relative grid w-2/3 grid-cols-1 mx-auto mb-4 sm:mb-0 sm:grid-cols-2 place-items-center h-max sm:flex-row sm:h-screen sm:w-full"
       >
-        <div>
+        <div className="order-1 sm:order-none">
           <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
             Buy merchendise from other students
           </p>
         </div>
         <div className="grid w-full h-full place-items-center">
-          <Deal className="w-full h-1/2" />
+          <Deal className="w-full text-purple-400 h-4/5 sm:h-3/5 drop-shadow-lg" />
           <div className="absolute right-0 invisible w-2/4 bg-purple-200 rounded-l-full bottom-60 md:visible -z-10 h-2/6"></div>
         </div>
       </section>
-      {/* <section className="relative flex flex-col justify-center w-2/3 mx-auto h-max sm:h-screen sm:flex-row sm:w-full">
-        <div className="grid w-full sm:w-1/2 place-items-center">
-          <div className="w-full h-4/5 sm:h-3/5">
-            <Stripe className="w-full h-full text-indigo-500 " />
-            <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-60 md:visible -z-10 h-2/6"></div>
-          </div>
+      <section
+        id="lm"
+        className="relative grid w-2/3 grid-cols-1 mx-auto sm:grid-cols-2 place-items-center h-max sm:flex-row sm:h-screen sm:w-full"
+      >
+        <div className="grid w-full h-full place-items-center">
+          <Stripe className="w-full text-purple-400 h-4/5 sm:h-3/5 drop-shadow-lg" />
+          <div className="absolute left-0 invisible w-2/4 bg-purple-200 rounded-r-full bottom-60 md:visible -z-10 h-2/6"></div>
         </div>
-
-        <div className="w-full h-full sm:w-1/2 sm:grid sm:place-items-center">
-          <p className="text-xl text-center align-middle sm:text-2xl sm:text-left">
+        <div>
+          <p className="text-xl text-center align-middle sm:text-2xl sm:text-right">
             Payment is done securely through Stripe
           </p>
         </div>
-      </section> */}
+      </section>
       <section className="grid w-3/4 h-screen mx-auto place-items-center">
         <div>
           <h1 className="text-2xl font-bold text-center sm:text-5xl">
