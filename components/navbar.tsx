@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { PrismaClient } from "@prisma/client";
 import Link from "next/link";
+
 import {
   AiOutlineFire,
   AiOutlineShoppingCart,
@@ -7,6 +8,7 @@ import {
 } from "react-icons/ai";
 
 export default function Navbar() {
+  const prisma = new PrismaClient();
   return (
     <>
       <div className="sticky top-0 z-50 hidden sm:block">
