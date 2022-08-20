@@ -19,21 +19,13 @@ export default function Navbar() {
           />
 
           <div className="m-auto">
-            <Link href="/latest">
-              <div className="inline-block mx-4 cursor-pointer">
-                <AiOutlineFire size="1.8rem" className="mx-auto" />
-                <p className="text-sm align-middle ">Latest</p>
-              </div>
-            </Link>
             <Link href="/cart">
               <div className="inline-block mx-4 cursor-pointer">
                 <AiOutlineShoppingCart size="1.8rem" className="mx-auto" />
-                <p className="text-sm align-middle">Cart</p>
               </div>
             </Link>
             <div className="inline-block mx-4 cursor-pointer">
               <AiOutlineUser size="1.8rem" className="mx-auto" />
-              <p className="text-sm align-middle">Login</p>
             </div>
           </div>
         </nav>

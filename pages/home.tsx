@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 
-
 export default function Home() {
   return (
     <>
@@ -11,6 +10,9 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+        <section className="grid w-full h-screen place-items-center">
+          <h1 className="text-2xl">🏗️ Under Construction 🏗️</h1>
+        </section>
       </main>
     </>
   );
