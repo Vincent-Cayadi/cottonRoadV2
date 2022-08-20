@@ -16,10 +16,11 @@ model User {
   name  String?
 }
 
-model Product {
-  sku    Int     @id
+model Apparel {
+  sku   Int     @id
   price Int
-  name String 
+  name String
+  size String 
   description String
-  availability Boolean
+  quantity Int
 }
