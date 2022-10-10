@@ -14,8 +14,3 @@ Remake Of Silk Road using Modern Web Development Tools
 
 # BackEnd
 ![Supabase](https://img.shields.io/badge/-supabase-3ECF8E?style=for-the-badge&labelColor=white&logo=supabase&logoColor=3ECF8E)
-
-# Payment
-![Stripe](https://img.shields.io/badge/-stripe-008CDD?style=for-the-badge&labelColor=white&logo=stripe&logoColor=008CDD)
-
-E-Commerce site where Seondary Schools can put up and sell their merchandise and payment is done through stripe
