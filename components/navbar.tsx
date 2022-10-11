@@ -24,9 +24,6 @@ export default function Navbar() {
                 <AiOutlineShoppingCart size="1.8rem" className="mx-auto" />
               </div>
             </Link>
-            <div className="inline-block mx-4 cursor-pointer">
-              <AiOutlineUser size="1.8rem" className="mx-auto" />
-            </div>
           </div>
         </nav>
       </div>
