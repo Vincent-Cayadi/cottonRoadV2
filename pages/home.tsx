@@ -8,10 +8,10 @@ export default function Home() {
         <title> Home | Cotton Road</title>
         <meta name="description" content="Home | Cotton Road" />
       </Head>
+      <Navbar />
       <main>
-        <Navbar />
-        <section className="grid w-full h-screen place-items-center">
-          <h1 className="text-2xl">🏗️ Under Construction 🏗️</h1>
+        <section className="mx-auto sm:w-4/5 bg-grey-600">
+          <h1 className="w-full text-2xl text-center">New Arrivals</h1>
         </section>
       </main>
     </>
