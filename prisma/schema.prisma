@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,17 +7,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-}
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by the Prisma Client.
 
-model Apparel {
-  sku   Int     @id
-  price Int
+model products{
+  id Int @id @default(autoincrement())
   name String
-  size String 
+  price Int
   description String
+  image String
+  size String
   quantity Int
 }
